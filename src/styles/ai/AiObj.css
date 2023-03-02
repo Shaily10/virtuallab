@@ -1,0 +1,14 @@
+
+.text-container h1 {
+    font-size: 3rem;
+    padding-left: 60px;
+    
+  }
+  
+  .text-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-left: 70px;
+    padding-right: 80px;
+
+  }

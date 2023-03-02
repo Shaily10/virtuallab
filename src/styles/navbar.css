@@ -1,0 +1,132 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(31, 67, 88, 0.815);
+  z-index: 9999;
+}
+
+.logo {
+  display: center;
+  /* horizontal-align: center; */
+  margin-right: 92%;
+  margin-top: -23px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+
+}
+
+.title{
+    padding-top: 10px;
+    color:rgb(248, 245, 245);
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30%;
+  }
+  
+  .header{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(19, 19, 21);
+    padding-top: 4px;
+    text-decoration:none;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 600px;
+  }
+  .header:hover{
+    color: aliceblue;
+  }
+  
+  .title{
+    padding-left:20px;
+  }
+  
+  .title:hover{
+    color:rgb(5, 107, 92);
+  }  */
+  /* Navbar styles */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #05203b;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar logo */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #212529;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Navbar links */
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #212529;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #414243;
+  color: #212529;
+  text-decoration: none;
+}
+
+/* Active link */
+.active {
+  background-color: #212529;
+  color: #fff;
+}
+
+.active:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+  }
+  
+  .nav-link {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+}
